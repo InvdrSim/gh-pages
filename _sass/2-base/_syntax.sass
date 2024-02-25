@@ -1,0 +1,179 @@
+$code: #9cdcfe //#49F3C3
+$keyword: #FFCB6B
+$types: #FFCB6B
+$punctuation: #FFFFFF
+$constant: #FFFECA
+$comments: #D4CCC0
+$lineno: #D4CCC0
+  
+.highlight
+  table
+    td
+      padding: 5px
+
+    pre
+      margin: 0
+
+  .c, .cd, .cm
+    color: #5e5d83
+    font-style: italic
+
+  .c1
+    color: $comments
+    font-style: italic
+    text-shadow: 0 1px 1px #000
+
+pre.lineno
+  color: $lineno
+  font-style: italic
+  text-shadow: 0 1px 1px #000
+
+.highlight
+  .cp, .cs
+    color: #465457
+    font-style: italic
+
+  .err
+    color: $code
+    background-color: #403d3d
+
+  .gi
+    color: $code
+
+  .gd
+    color: $keyword
+
+  .ge
+    color: #1b1d1e
+    font-style: italic
+
+  .gr, .gt
+    color: $keyword
+
+  .gh, .go
+    color: #403d3d
+
+  .gp
+    color: $keyword
+
+  .gs
+    font-style: italic
+
+  .gu
+    color: #465457
+
+  .k, .kv, .kc, .kd, .kp, .kr, .kt, .kn, .ow, .o
+    color: $keyword
+    font-style: italic
+
+  .mf, .mh, .il, .mi, .mo, .m, .mb, .mx, .se, .sb, .sc, .sd, .s2, .sh, .si, .sx, .sr, .s1, .ss, .s
+    color: $constant
+
+  .n, .na, .nc
+    color: $code
+
+  .nd, .ne
+    color: $code
+    font-style: italic
+
+  .nf, .no, .bp, .nb, .ni, .nn, .vc, .vg, .vi, .nv, .w
+    color: $code
+
+  .nl
+    color: $code
+    font-style: italic
+
+  .nt
+    color: $keyword
+
+  color: $code
+
+  .p, .pi
+    color: $punctuation
+
+td.rouge-code
+  width: 100%
+
+pre.lineno
+  pointer-events: none
+  user-select: none
+
+/*! purgecss start ignore
+
+code.language-plaintext.highlighter-rouge
+  font-family: Monoid, monospace, sans-serif
+  font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual
+  font-feature-settings: "calt" 1, "liga" 1
+  font-weight: normal
+  font-size-adjust: .37
+  letter-spacing: -0.03rem
+  color: $constant
+  background-color: #1f1f1f
+  padding: 0 0.1rem
+  margin: 0 -0.1rem 0.15rem -0.1rem
+  display: inline-block
+  vertical-align: middle
+  white-space: -moz-pre-wrap
+  white-space: -o-pre-wrap
+  white-space: pre-wrap
+  word-wrap: anywhere
+  overflow-wrap: anywhere
+
+a
+  &:not(:hover) code
+    text-decoration: underline dotted currentColor
+    text-decoration-thickness: 0.5px
+    transition: color 0.3s
+
+    span
+      text-decoration: underline dotted currentColor
+      text-decoration-thickness: 0.5px
+      transition: color 0.3s
+
+  &:hover code
+    text-decoration: underline dotted $code
+    color: $code !important
+    transition: color 0.3s
+
+    span
+      text-decoration: underline dotted $code
+      color: $code !important
+      transition: color 0.3s
+
+code.language-plaintext.highlighter-rouge
+  > :not(span)
+    color: $constant
+
+  &.keyword
+    color: $keyword
+    font-style: italic
+    font-weight: normal
+
+  &.constant
+    color: $constant
+    font-style: italic
+    font-weight: normal
+
+pre
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  width: 100%
+  padding: 8px
+  font-family: Monoid, monospace, sans-serif
+  font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures contextual
+  font-feature-settings: "calt" 1, "liga" 1
+  font-size: .65rem
+  overflow: auto
+  border-radius: 0
+  line-height: 1.6
+  background-color: #222222
+
+@media (prefers-color-scheme: light)
+  pre
+    background-color: #060606
+
+  div.language-cs.highlighter-rouge, code.language-plaintext.highlighter-rouge
+    background-color: #080808
+    filter: invert(1) hue-rotate(180deg) saturate(2)
+
+/*! purgecss end ignore
