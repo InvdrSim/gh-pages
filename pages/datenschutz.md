@@ -6,8 +6,6 @@ permalink: /datenschutz
 
 # Datenschutz
 
-Es werden von dieser Website selbst keine personenbezogenen Daten erhoben oder gespeichert.
-
 ## Verantwortlich ist:
 
 Simon Pähler  
