@@ -11,13 +11,9 @@ menu:
 # Projects Section
 
 projects:
+- {name: 'nogifsallowed.tumblr.com', url: 'nogifsallowed', thumbnail: 'hot_box.webp' }
 # - {name: 'The Azury Experience', url: 'azury-experience'}
 # - {name: 'Stereoscopic Panorama Camera', url: 'stereo-camera'}
-# - {name: 'Project One',   url: 'proj-1'}
-# - {name: 'Project Two',   url: 'proj-2'}
-# - {name: 'Project Three', url: 'proj-3'}
-# - {name: 'Project Four',  url: 'proj-4'}
-# - {name: 'Project Five',  url: 'proj-5'}
 
 #-------------------------------
 # Contact Section
