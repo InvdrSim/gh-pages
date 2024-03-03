@@ -11,6 +11,8 @@ menu:
 # Projects Section
 
 projects:
+- {name: 'The Floor is Lava', url: 'floor-is-lava', thumbnail: 'floor-is-lava-01.png' }
+- {name: 'Motoliner VR', url: 'motoliner-vr', thumbnail: 'motoliner-05.jpg' }
 - {name: 'nogifsallowed.tumblr.com', url: 'nogifsallowed', thumbnail: 'hot_box.webp' }
 # - {name: 'The Azury Experience', url: 'azury-experience'}
 # - {name: 'Stereoscopic Panorama Camera', url: 'stereo-camera'}
