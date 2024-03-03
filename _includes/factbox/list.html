@@ -1,0 +1,7 @@
+<ul>
+    {% for item in include.items -%}
+        <li>
+            {% include {{ include.item-template }} item=item %}
+        </li>
+    {% endfor -%}
+</ul>

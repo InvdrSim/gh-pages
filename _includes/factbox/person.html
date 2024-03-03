@@ -1,0 +1,5 @@
+{% if item.url -%}
+<a href="{{ item.url }}" target="_blank">{{ item.name }}</a> - {{ item.task }}
+{% else %}
+{{ item.name }} - {{ item.task }}
+{% endif %}

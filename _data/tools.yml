@@ -1,0 +1,9 @@
+unity:
+  name: 'Unity'
+  url: 'https://unity.com/'
+blender:
+  name: 'Blender'
+  url: 'https://www.blender.org/'
+processing:
+  name: 'Processing'
+  url: 'https://processing.org/'

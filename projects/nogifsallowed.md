@@ -1,25 +1,24 @@
 ---
-layout: post
+layout: project
 title: 'nogifsallowed'
----
 
-## Procedural looping animations
+subtitle: 'Procedural looping animations'
+
+time: '2014-2016'
+tools:
+- processing
+more:
+- {link: "nogifsallowed.tumblr.com", url: 'https://nogifsallowed.tumblr.com' }
+
+theme: 'nogifsallowed'
+---
 
 In this personal project I explored the world of generative art by creating looping procedural animations in code using Processing. Check a few of them out below!
 
-> ### Time  
-> 2014-2016
->
-> ### Tools  
-> [Processing](https://processing.org/)
->
-> ### More  
-> [nogifsallowed.tumblr.com](https://nogifsallowed.tumblr.com){:target="_blank"}
+![Hot Box](/assets/img/projects/nogifsallowed/hot_box.webp)
+{: .image-use-width}
 
 ![Contraption](/assets/img/projects/nogifsallowed/contraption.webp)
-{: .image-use-width .image-border}
-
-![Hot Box](/assets/img/projects/nogifsallowed/hot_box.webp)
 {: .image-use-width}
 
 ![Mountain Wave](/assets/img/projects/nogifsallowed/mountain_wave.webp)
@@ -32,6 +31,6 @@ In this personal project I explored the world of generative art by creating loop
 {: .image-use-width}
 
 ![Gravity](/assets/img/projects/nogifsallowed/gravity.webp)
-{: .image-use-width .image-border}
+{: .image-use-width}
 
-<script src="https://gist.github.com/anonymous/8d58cd7cd17742c47f27.js"></script>
+<!-- <script src="https://gist.github.com/anonymous/8d58cd7cd17742c47f27.js"></script> -->

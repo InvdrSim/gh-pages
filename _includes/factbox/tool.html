@@ -1,0 +1,6 @@
+{%- assign tool = site.data.tools[include.item] -%}
+{%- if tool -%}
+<a href="{{ tool.url }}" target="_blank">{{ tool.name }}</a>
+{%- else -%}
+{{ include.item }}
+{%- endif -%}

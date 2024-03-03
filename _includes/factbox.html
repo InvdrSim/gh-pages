@@ -1,0 +1,18 @@
+<div class="factbox">
+    {% if page.time -%}
+        <h3>Year</h3>
+        <p>{{ page.time }}</p>
+        {%- endif %}
+    {% if page.tools -%}
+        <h3>Tools</h3>
+        {% include factbox/list.html items=page.tools item-template='factbox/tool.html' %}
+    {%- endif %}
+    {% if page.more -%}
+        <h3>More</h3>
+        {% include factbox/list.html items=page.more item-template='factbox/more.html' %}
+    {%- endif %}
+    {% if page.credits -%}
+    <h3>Credits</h3>
+    {% include factbox/list.html items=page.credits item-template='factbox/person.html' %}
+{%- endif %}
+</div>

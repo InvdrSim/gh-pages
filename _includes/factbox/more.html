@@ -1,0 +1,6 @@
+{%- if include.item.text -%} 
+{{ include.item.text }}
+{% endif -%}
+{%- if include.item.link and include.item.url -%}
+    <a href="{{ include.item.url }}" target="_blank">{{ include.item.link }}</a>
+{%- endif -%}

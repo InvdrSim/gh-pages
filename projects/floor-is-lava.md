@@ -1,23 +1,23 @@
 ---
-layout: post
+layout: project
 title: 'The Floor is Lava'
+subtitle: 'Escape the Lost Mayan Temple!'
+
+background-color: '#fae9c9'
+
+time: '2018'
+
+tools:
+- 'unity'
+- 'blender'
+
+more:
+- { text: 'Motion capture by', link: 'Captury', url: 'https://captury.com/' }
+- { text: 'Uses the', link: 'Mayan Temple asset pack', url: 'http://devassets.com/assets/mayan-temple/' }
+- { text: 'See the game in action:', link: 'YouTube', url: 'https://youtu.be/ORQcgFfsG24' }
 ---
 
-## Escape the Lost Mayan Temple!
-
 Navigate through a perilous environment as an explorer, using real-time motion capture animation (provided by Captury) to bring your character to life. This Unity-developed game challenges you to jump from platform to platform while dodging fireballs, all while avoiding the ever-approaching lava.
-
-> ### Time  
-> 2018
->
-> ### Tools  
-> Unity  
-> Blender
->
-> ### More  
-> Motion capture by [Captury](https://captury.com/){:target="_blank"}  
-> See the game in action: [YouTube](https://youtu.be/ORQcgFfsG24){:target="_blank"}  
-> Uses the [Mayan Temple asset pack](http://devassets.com/assets/mayan-temple/){:target="_blank"}
 
 ![Floor is Lava 1](/assets/img/projects/floor-is-lava/floor-is-lava-01.png)
 
