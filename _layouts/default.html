@@ -29,7 +29,11 @@
     <!-- Use Jekyll SEO plugin -->
     {% seo %}
   </head>
+  {% if page.theme -%}
+  <body class="{{ page.theme }}">
+  {%- else -%}
   <body>
+  {%- endif %}
     <div class="site-container">
       {% include header.html %}
       {{ content }}
@@ -37,5 +41,6 @@
     </div>
     {% include back-to-top.html %}
     <script src="/assets/jquery/jquery.min.js"></script>
+    <script src="/assets/js/lightbox.js"></script>
   </body>
 </html>

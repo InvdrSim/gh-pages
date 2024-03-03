@@ -39,7 +39,6 @@ RUN apt-get -y install git \
     libgdbm-dev \
     libdb-dev \
     apt-utils
-RUN apt-get -y install git-lfs
     
 # "#################################################"
 # "GitHub Pages/Jekyll is based on Ruby. Set the version and path"
