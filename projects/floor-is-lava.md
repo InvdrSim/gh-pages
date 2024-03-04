@@ -3,14 +3,12 @@ layout: project
 title: 'The Floor is Lava'
 subtitle: 'Escape the Lost Mayan Temple!'
 
-background-color: '#fae9c9'
+theme: 'lava'
 
 time: '2018'
-
 tools:
 - 'unity'
 - 'blender'
-
 more:
 - { text: 'Motion capture by', link: 'Captury', url: 'https://captury.com/' }
 - { text: 'Uses the', link: 'Mayan Temple asset pack', url: 'http://devassets.com/assets/mayan-temple/' }

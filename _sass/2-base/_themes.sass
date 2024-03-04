@@ -1,13 +1,14 @@
-.motoliner
+.theme.motoliner
   background: linear-gradient(180deg, rgba(200,150,250,1) 0%, rgba(255,200,120,1) 100%)
   color: #333
 
+  h1, h2, h3, h4, h5, h6
+    color: #000
+
   .post-container
-    h1, h2, h3, h4, h5, h6
-      color: #000
 
     .factbox
-      border-color: #333
+      border-color: #33333330
 
     a
       color: lighten(#B9EC9B, 20%)
@@ -15,7 +16,7 @@
       &:hover
         color: lighten(#B9EC9B, 40%)
 
-.ijl
+.theme.ijl
   background-color: #fcf4e4
 
   .post-container
@@ -25,7 +26,8 @@
       &:hover
         color: lighten($accent, 10%)
 
-.nogifsallowed
+
+.theme.nogifsallowed
   background-color: #eaeaea
 
   .post-container
@@ -34,3 +36,24 @@
 
       &:hover
         color: lighten($accent, 10%)
+
+.theme.lava
+  $color: #eee
+  background-color: #713131
+  color: #fff
+
+  h1, h2, h3, h4, h5, h6
+    color: $color
+
+  header a
+    color: $color
+
+  footer a
+    color: $color !important
+  
+  a.back-to-top
+    background-color: $color
+
+    .cd-icon
+      color: #000
+
