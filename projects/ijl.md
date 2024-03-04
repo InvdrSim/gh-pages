@@ -1,7 +1,7 @@
 ---
 layout: project
-title: 'ijl'
-subtitle: 'Unravel the secrets, one perilous jump at a time'
+# title: 'ijl'
+# subtitle: 'Unravel the secrets, one perilous jump at a time'
 
 time: '2014-2016'
 tools:
@@ -15,7 +15,10 @@ credits:
 - { name: 'Jonathan Dawo', task: 'Concept Art', url: 'https://www.artstation.com/jondawo' }
 
 theme: 'ijl'
+header-image: '/assets/img/projects/ijl/ijl.png'
 ---
+
+<!-- ![](/assets/img/projects/ijl/ijl.png){: .ijl-logo} -->
 
 An unknown evil has infected the world.
 Where is the infection coming from? And what happened to all the inhabitants of a once lively world? The only hope for the return of peace rests on a young shaman woman.

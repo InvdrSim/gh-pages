@@ -4,9 +4,16 @@ layout: default
 
 <section>
   <div class="post-container">
+    {% if page.title %}
     <h4 class="project-title">{{ page.title }}</h4>
+    {% endif %}
+    {% if page.header-image %}
+    <img class="header-image" src="{{ page.header-image }}"/>
+    {% endif %}
     <div class="project-load">
+      {% if page.subtitle %}
       <h2>{{ page.subtitle }}</h2>
+      {% endif %}
       {% include factbox.html %}
       {{ content }}
     </div>
