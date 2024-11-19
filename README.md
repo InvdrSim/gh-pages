@@ -1,6 +1,6 @@
 ## Credits
 
-Based on [the Portfolio Jekyll Theme by LeNPaul](https://github.com/LeNPaul/portfolio-jekyll-theme  
+Based on [the Portfolio Jekyll Theme by LeNPaul](https://github.com/LeNPaul/portfolio-jekyll-theme)  
 See the original license below.
 
 > ### The MIT License (MIT)
