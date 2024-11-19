@@ -10,7 +10,7 @@ tools:
 
 more:
 - { link: 'The Azury Experience', url: 'https://azury.de/experience' }
-- { text: 'Project:', text: 'Stereo Camera', url: '/projects/stereo-camera'}
+- { text: 'Project:', link: 'Stereo Camera', url: '/projects/stereo-camera'}
 ---
 
 ![Azury Experience VR application screenshot](/assets/img/projects/azury-experience/experience1.png)
