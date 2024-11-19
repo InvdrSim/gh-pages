@@ -3,7 +3,7 @@
 
 menu:
 - {name: 'Projects', url: ''}
-- {name: 'Articles', url: 'articles'}
+# - {name: 'Articles', url: 'articles'}
 - {name: 'About',    url: 'about'}
 - {name: 'Contact',  url: 'contact'}
 
@@ -11,12 +11,12 @@ menu:
 # Projects Section
 
 projects:
+- {name: 'The Azury Experience', url: 'azury-experience', thumbnail: 'thumbnail.jpg' }
+- {name: 'Stereoscopic Panorama Camera', url: 'stereo-camera', thumbnail: 'thumbnail.jpg' }
 - {name: 'The Floor is Lava', url: 'floor-is-lava', thumbnail: 'thumbnail.jpg' }
 - {name: 'Motoliner VR', url: 'motoliner-vr', thumbnail: 'thumbnail.jpg' }
 - {name: 'ijl', url: 'ijl', thumbnail: 'thumbnail.jpg' }
 - {name: 'nogifsallowed.tumblr.com', url: 'nogifsallowed', thumbnail: 'hot_box.webp' }
-# - {name: 'The Azury Experience', url: 'azury-experience'}
-# - {name: 'Stereoscopic Panorama Camera', url: 'stereo-camera'}
 
 #-------------------------------
 # Contact Section
@@ -24,7 +24,7 @@ projects:
 social:
 - {icon: 'instagram', link: 'https://www.instagram.com/invadrsim'}
 - {icon: 'github',    link: 'https://github.com/invdrsim'}
-- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/simon-p&auml;hler'}
+- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/simon-paehler'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
